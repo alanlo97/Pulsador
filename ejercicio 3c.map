@@ -1,0 +1,52 @@
+MPLINK 4.31, Linker
+Linker Map File - Created Tue Feb 02 20:37:11 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x00008e
+.config_2007_EJERCICIO 3C.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x00004a      
+                            0x002007    0x002007      
+            75 out of 2183 program addresses used, program memory utilization is 3%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000024    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+                 INT_TMR0   0x00000d    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+                  MOSTRAR   0x00001c    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+                    RESTA   0x000019    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+                SALIR_INT   0x000023    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+               SALIR_TMR0   0x000020    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+                     SUMA   0x000014    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+              TAB_DISPLAY   0x00003a    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+             _.org_1_0039   0x000039    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 INT_TMR0   0x00000d    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+                     SUMA   0x000014    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+                    RESTA   0x000019    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+                  MOSTRAR   0x00001c    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+               SALIR_TMR0   0x000020    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+                SALIR_INT   0x000023    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+                   INICIO   0x000024    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+             _.org_1_0039   0x000039    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+              TAB_DISPLAY   0x00003a    program     static C:\Users\Alan\OneDrive\Escritorio\EJERCICIO 3c DISPLAYS\ejercicio 3c.asm
+
+
